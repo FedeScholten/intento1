@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(255, 255, 255);
+}    
+#etiquetas{
+    background-color: lime ;
+    color: rgb(0, 0, 0);
+    height: 100px;
+}
+.azul{
+    background-color: navy;
+    color: seashell;
+}
+li{
+    display: inline;
+    padding: 20px;
+    border:5px solid darkred;
+    margin: 2px;
+    background-color: rgb(174, 0, 255);
+    cursor: pointer;
+    box-shadow:5px 5px 6px teal;
+}
+input{
+    background-color: red;
+}
+li:hover{
+    background-color: rgb(255, 6, 6);
+    color: rgb(0, 0, 0);
+    box-shadow:5px 5px 6px rgb(0, 2, 2);
+}
+
