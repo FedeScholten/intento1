@@ -1,0 +1,41 @@
+*{
+ margin: 0px;   
+}
+
+#principal{
+     display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-around; 
+}
+.cuadro{
+    background-color: rgb(224, 0, 0);
+    width: 20%;
+    /* height: 200px; */
+    margin: 0px 0px;
+    /* float: left; 
+    border:  80px solid green;
+    box-sizing: border-box;    */
+    flex-wrap: wrap;
+    display: flex;
+}
+.cuadro p{
+    font-size: x-large;
+    font-family: 'Allison', cursive;
+}
+.cuadro p::before{
+    content: "";
+}
+.cuadro p::after{
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dignissimos neque, inventore culpa dolor excepturi cupiditate hic facere, delectus quos obcaecati veniam facilis. Tempora quaerat sunt officia quisquam accusamus! Ducimus?";
+}
+footer{
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    color: yellow;
+}
