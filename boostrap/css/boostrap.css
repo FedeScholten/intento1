@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(226, 107, 107);
+}
+.btn-primary{
+    background-color: deeppink;
+}
+.btn-primary:hover{
+    background-color: maroon;
+}
