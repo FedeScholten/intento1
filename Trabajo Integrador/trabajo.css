@@ -1,0 +1,12 @@
+.img-fluid{
+    filter: brightness(50%);
+  }
+.cards {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  } 
+#ultimo{
+  background: rgb(0,31,65);
+  background: linear-gradient(90deg, rgba(0,31,65,1) 0%, rgba(9,97,111,1) 100%, rgba(1,143,113,1) 100%); 
+}
