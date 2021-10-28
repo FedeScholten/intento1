@@ -9,8 +9,10 @@ document.getElementById("resumen").addEventListener('click',()=>{
         elemento.innerHTML=`<div class="alert alert-success" role="alert">Total a Pagar: $ ${resultado*0.2}</div>`;
     } else if(categoria == "Trainee"){
         elemento.innerHTML=`<div class="alert alert-success" role="alert">Total a Pagar: $ ${resultado*0.5}</div>`;
-    } else{
+    } else if(categoria == "Junior"){
         elemento.innerHTML=`<div class="alert alert-success" role="alert">Total a Pagar: $ ${resultado*0.85}</div>`;
+    }else{
+        elemento.innerHTML=`<div class="alert alert-success" role="alert">Total a Pagar: $ ${resultado}</div>`;
     }
 
 })
