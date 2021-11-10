@@ -1,14 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package mi_primer_.aplicacion;
 
-/**
- *
- * @author fedes
- */
+import accesorios.Auto;            
+
 public class Mi_primer_Aplicacion {
     public static void main(String[] args) {
         boolean llueve = true;
@@ -34,6 +28,10 @@ public class Mi_primer_Aplicacion {
         System.out.println("Tengo "+ jugador.getVidas() + " vidas");
         System.out.println(jugador.mostrarSaludo());
         System.out.println(jugador2.mostrarSaludo());
+        Auto miAuto= new Auto(250, 4, 2017, "rojo", "bmw");
+        miAuto.setEncendido(true);
+        System.out.println(miAuto.encender_auto());
+        
     }
     
 }
