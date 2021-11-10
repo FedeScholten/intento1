@@ -12,11 +12,11 @@ public class Actividad_Obligatoria {
         System.out.println("Ingresá tu edad:");
         int edad = entrada.nextInt();
         System.out.println("¿Cuál es tu hobbie?");
-        String hobbie = entrada.nextLine();
+        String hobbie = entrada.next();
         System.out.println("¿Editor de código favorito?");
-        String editor = entrada.nextLine();
+        String editor = entrada.next();
         System.out.println("¿Qué sistema operativo usas?");
-        String sistema = entrada.nextLine();
+        String sistema = entrada.next();
         System.out.println("Tu nombre es: " +nombre);
         System.out.println("Tu apellido es: "+apellido);
         System.out.println("Tu edad es: "+edad);
