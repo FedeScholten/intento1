@@ -9,14 +9,17 @@ public class Operaciones {
         this.op= op; 
     }
     public int Operaciones(){
-    if(op.equals("+")){
-        return numero1 + numero2; 
-    }else if(op.equals("-")){ 
-        return numero1 - numero2;
-    }else if(op.equals("*")){
-        return numero1 * numero2;        
-    }else if(op.equals("/")){
-        return numero1/numero2;  
-    }else{ return 0;}
+        switch (op) {
+            case "+":
+                return numero1 + numero2;
+            case "-":
+                return numero1 - numero2;
+            case "*":
+                return numero1 * numero2;
+            case "/":
+                return numero1/numero2;
+            default:
+                return 0;
+        }
     }
 }
